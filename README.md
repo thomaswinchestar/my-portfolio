@@ -2,7 +2,7 @@
 
 ![ReactJS Resume Website Template](portfolio.png?raw=true "ReactJS Resume Website Template")
 
-## <a href="https://musing-morse-291d76.netlify.app/" target="_blank">LIVE DEMO</a>
+## <a href="https://devpph.netlify.app/" target="_blank">LIVE DEMO</a>
 
 ## Description
 This is a ReactJS based personal resume website template for participants of The 5 days ReactJS Challenge by CP 
