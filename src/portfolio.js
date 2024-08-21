@@ -14,7 +14,7 @@ const greeting = {
     subTitle: emoji(
         "A passionate Senior Web Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
     ),
-    resumeLink: "https://drive.google.com/drive/folders/1zP-3YeqOJxMUa1kLE6dG_2AJdlQc3MJv?usp=sharing",
+    resumeLink: "https://flowcv.com/resume/uab12f48c9",
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -60,6 +60,10 @@ https://fontawesome.com/icons?d=gallery */
             fontAwesomeClassname: "fab fa-css3-alt"
         },
         {
+            skillName: "tailwindcss",
+            fontAwesomeClassname: "fas fa-tailwind"
+        },
+        {
             skillName: "sass",
             fontAwesomeClassname: "fab fa-sass"
         },
@@ -98,7 +102,52 @@ https://fontawesome.com/icons?d=gallery */
         {
             skillName: "firebase",
             fontAwesomeClassname: "fas fa-fire"
-        }
+        },
+        {
+            skillName: "TypeScript",
+            fontAwesomeClassname: "fab fa-typescript"
+        },
+        {
+            skillName: "ExpressJS",
+            fontAwesomeClassname: "fas fa-server"
+        },
+        {
+            skillName: "MongoDB",
+            fontAwesomeClassname: "fas fa-database"
+        },
+        {
+            skillName: "Wordpress",
+            fontAwesomeClassname: "fab fa-wordpress"
+        },
+        {
+            skillName: "AR/VR",
+            fontAwesomeClassname: "fas fa-vr-cardboard"
+        },
+        {
+            skillName: "Material",
+            fontAwesomeClassname: "fab fa-material-ui"
+        },
+        {
+            skillName: "Ant Design",
+            fontAwesomeClassname: "fab fa-ant-design"
+        },
+        {
+            skillName: "MySQL",
+            fontAwesomeClassname: "fas fa-database"
+        },
+        {
+            skillName: "PostgreSQL",
+            fontAwesomeClassname: "fas fa-database"
+        },
+        {
+            skillName: "Docker",
+            fontAwesomeClassname: "fab fa-docker"
+        },
+        {
+            skillName: "AWS",
+            fontAwesomeClassname: "fab fa-aws"
+        },
+
     ],
     display: true // Set false to hide this section, defaults to true
 };
@@ -137,34 +186,42 @@ const educationInfo = {
             schoolName: "Fairway Technology",
             logo: require("./assets/images/fairway.png"),
             subHeader: "Rockstar Developer Class",
-            duration: "August 2020 - present",
+            duration: "August 2020 - Jan 2021",
             desc: "Project Management, Service-oriented Architecture, SOLID Design Principle, Git SCM, Build Automation, NodeJS, MongoDB, ExpressJS, Server Architecture",
             descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
         },
         {
-            schoolName: "AProgrammer",
-            logo: require("./assets/images/aprogrammer.png"),
-            subHeader: "Laravel Online Class Batch 4",
-            duration: "Nov 2020 - Jan 2021",
-            desc: "Learned about laravel basic concept and architecture.",
+            schoolName: "Turing Programming Training Center",
+            logo: require("./assets/images/turing.png"),
+            subHeader: "JavaScript +Frontend development with React",
+            duration: "August 2020 - Feb 2021",
+            desc: "Understanding how JavaScript works, from source code to machine code in a browser, involves mastering data types and control flow structures. Key concepts include functions, event handling, the DOM, and the JavaScript event loop model. Object-oriented programming with JavaScript, along with functional programming techniques—ranging from higher-order functions to functors, monoids, monads, and functional design patterns—are essential. Core programming principles, basic Node.js, and building applications using CRUD operations with JWT, Express.js, and MongoDB are fundamental for backend development. Asynchronous programming through callbacks, promises, and async/await, paired with writing clean code and basic refactoring, enhances code quality. On the frontend, React with Next.js necessitates an understanding of package managers and project setup, offering an overview of how React operates under the hood. This includes handling React elements, JSX in depth, the virtual DOM, component and component life cycle, and conditional rendering. Component architecture is further refined through React design patterns like Higher-Order Components, composite, and render props patterns. Additionally, mastering Flux and Redux for state management, forms, HTTP, routing, hooks, and the Context API are integral to building efficient React applications.",
             descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
         },
-        {
-            schoolName: "MM Coder",
-            logo: require("./assets/images/mmcoder.png"),
-            subHeader: "Laravel Master and Vue Class",
-            duration: "Jan 2021 - Feb 2021",
-            desc: "Learned about laravel Vue advanced and build real life projects",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-        },
-        {
-            schoolName: "Creative Coder",
-            logo: require("./assets/images/creative-coder-online-course.jpg"),
-            subHeader: "Vue Firebase",
-            duration: "Jan 2021 - present",
-            desc: "Learned about laravel Vue advanced and build real life projects",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-        },
+        // {
+        //     schoolName: "AProgrammer",
+        //     logo: require("./assets/images/aprogrammer.png"),
+        //     subHeader: "Laravel Online Class Batch 4",
+        //     duration: "Nov 2020 - Jan 2021",
+        //     desc: "Learned about laravel basic concept and architecture.",
+        //     descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        // },
+        // {
+        //     schoolName: "MM Coder",
+        //     logo: require("./assets/images/mmcoder.png"),
+        //     subHeader: "Laravel Master and Vue Class",
+        //     duration: "Jan 2021 - Feb 2021",
+        //     desc: "Learned about laravel Vue advanced and build real life projects",
+        //     descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        // },
+        // {
+        //     schoolName: "Creative Coder",
+        //     logo: require("./assets/images/creative-coder-online-course.jpg"),
+        //     subHeader: "Vue Firebase",
+        //     duration: "Jan 2021 - present",
+        //     desc: "Learned about laravel Vue advanced and build real life projects",
+        //     descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        // },
     ]
 };
 
@@ -227,16 +284,53 @@ const workExperiences = {
             ]
         },
         {
+            role: "Senior Web Developer",
+            company: "Next Innovation Co., Ltd",
+            companylogo: require("./assets/images/next-innovations.png"),
+            date: "March 2021 Sept 2021",
+            desc: "Developed and maintained Japan's largest delivery health information site, \"Deriheru Town.\"",
+            descBullets: [
+                "Delivery Health Information Site",
+            ]
+        },
+        {
             role: "Fullstack Developer",
             company: "Trazitar Online Shop",
             companylogo: require("./assets/images/tzt-logo.png"),
-            date: "Jan 2020 Dec 2020",
+            date: "Oct 2021 June 2022",
             desc: "I developed both frontend and backend for trazitar online shop website.",
             descBullets: [
-                "Blog Laravel",
+                "elblog CMS Laravel",
                 "Food Ordering Laravel",
-                "eCommerce Online Shop",
-                "POS"
+                "eCommerce Web App fully customized",
+                "POS asynchronous with eCommerce Web App",
+            ]
+        },
+        {
+            role: "Senior Frontend Developer & Team Lead",
+            company: "Nexstack Co., Ltd Singapore",
+            companylogo: require("./assets/images/nexstack.png"),
+            date: "June 2022 April 2023",
+            desc: "Continuously learned and adapted to new technologies and methodologies, enhancing personal and team efficiency",
+            descBullets: [
+                "Fully customized HR Management Web App",
+                "Invoice System App",
+                "Central Video Management System Singapore Government Web App",
+            ]
+        },
+        {
+            role: "Senior Fullstack Developer",
+            company: "Dinger Co.,ltd Fintech",
+            companylogo: require("./assets/images/dinger_logo.jpeg"),
+            date: "May 2023 to Present",
+            desc: "Led the successful development and delivery of multiple projects, showcasing exceptional technical skills and a deep understanding of fintech and payment gateway solutions.",
+            descBullets: [
+                "Mobile eWallet App",
+                "Billing Portal Web App",
+                "Picpicker Mobile App",
+                "BCGE Web App(Non-Government)",
+                "Dinger Portfolio Web App",
+                "Dinger Admin Web App",
             ]
         }
     ]
@@ -278,7 +372,7 @@ const bigProjects = {
             }]
         }
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
