@@ -73,7 +73,7 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            <a>
+            <a href="#toggle-switch">
               <ToggleSwitch />
             </a>
           </li>
