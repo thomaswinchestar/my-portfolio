@@ -438,9 +438,9 @@ const blogSection = {
             description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
         },
         {
-            url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-            title: "Why REACT is The Best?",
-            description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+            url: "https://medium.com/@thomaswinchestar/mastering-self-discipline-in-software-engineering-the-key-to-unleashing-your-full-potential-141662cd7683",
+            title: "Mastering Self-Discipline in Software Engineering: The Key to Unleashing Your Full Potential",
+            description: "Software engineering is a field characterized by rapid change, complex problem-solving, and the constant need to learn and adapt."
         }
     ],
     display: true // Set false to hide this section, defaults to true
@@ -479,7 +479,7 @@ const podcastSection = {
 const contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "(+959) 768 931 860",
+    number: "(+66 9) 59491867, (+959) 768 931 860",
     email_address: "thomasanthony999@gmail.com",
 };
 
