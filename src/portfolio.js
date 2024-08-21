@@ -192,7 +192,7 @@ const educationInfo = {
         },
         {
             schoolName: "Turing Programming Training Center",
-            logo: require("./assets/images/turing.png"),
+            logo: require("./assets/images/turing-logo.png"),
             subHeader: "JavaScript +Frontend development with React",
             duration: "August 2020 - Feb 2021",
             desc: "Understanding how JavaScript works, from source code to machine code in a browser, involves mastering data types and control flow structures. Key concepts include functions, event handling, the DOM, and the JavaScript event loop model. Object-oriented programming with JavaScript, along with functional programming techniques—ranging from higher-order functions to functors, monoids, monads, and functional design patterns—are essential. Core programming principles, basic Node.js, and building applications using CRUD operations with JWT, Express.js, and MongoDB are fundamental for backend development. Asynchronous programming through callbacks, promises, and async/await, paired with writing clean code and basic refactoring, enhances code quality. On the frontend, React with Next.js necessitates an understanding of package managers and project setup, offering an overview of how React operates under the hood. This includes handling React elements, JSX in depth, the virtual DOM, component and component life cycle, and conditional rendering. Component architecture is further refined through React design patterns like Higher-Order Components, composite, and render props patterns. Additionally, mastering Flux and Redux for state management, forms, HTTP, routing, hooks, and the Context API are integral to building efficient React applications.",
