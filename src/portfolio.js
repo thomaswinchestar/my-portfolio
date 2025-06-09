@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-    username: "Pyei Phyo Htet",
-    title: "Hi all, I'm Devpph",
+    username: "Devpph",
+    title: "Hi all, I'm Pyei Phyo Htet(Thomas)",
     subTitle: emoji(
-        "A passionate Senior Web Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+        "A passionate Senior Full Stack Engineer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / TypeScript / Reactjs / Nodejs / PHP / Laravel and some other cool libraries and frameworks."
     ),
     resumeLink: "https://flowcv.com/resume/uab12f48c9",
     displayGreeting: true // Set false to hide this section, defaults to true
@@ -163,7 +163,7 @@ const educationInfo = {
             duration: "January 2015 - December 2019",
             desc: "Physics",
             descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                ""
             ]
         },
         {
@@ -172,7 +172,7 @@ const educationInfo = {
             subHeader: "Diploma in Information Technology and Computer Programming",
             duration: "September 2016 - April 2017",
             desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+            descBullets: [""]
         },
         {
             schoolName: "Myanmar Imformation Technology Consulting Co.,ltd",
@@ -180,7 +180,7 @@ const educationInfo = {
             subHeader: "Professional Web Development",
             duration: "2017 - 2018",
             desc: "learned about HTML5, CSS3, Javascript, Bootstrap, PHP, Wordpress, Laravel, CodeIgniter, Drupal",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+            descBullets: [""]
         },
         {
             schoolName: "Fairway Technology",
@@ -188,7 +188,7 @@ const educationInfo = {
             subHeader: "Rockstar Developer Class",
             duration: "August 2020 - Jan 2021",
             desc: "Project Management, Service-oriented Architecture, SOLID Design Principle, Git SCM, Build Automation, NodeJS, MongoDB, ExpressJS, Server Architecture",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+            descBullets: [""]
         },
         {
             schoolName: "Turing Programming Training Center",
@@ -196,7 +196,7 @@ const educationInfo = {
             subHeader: "JavaScript +Frontend development with React",
             duration: "August 2020 - Feb 2021",
             desc: "Understanding how JavaScript works, from source code to machine code in a browser, involves mastering data types and control flow structures. Key concepts include functions, event handling, the DOM, and the JavaScript event loop model. Object-oriented programming with JavaScript, along with functional programming techniques—ranging from higher-order functions to functors, monoids, monads, and functional design patterns—are essential. Core programming principles, basic Node.js, and building applications using CRUD operations with JWT, Express.js, and MongoDB are fundamental for backend development. Asynchronous programming through callbacks, promises, and async/await, paired with writing clean code and basic refactoring, enhances code quality. On the frontend, React with Next.js necessitates an understanding of package managers and project setup, offering an overview of how React operates under the hood. This includes handling React elements, JSX in depth, the virtual DOM, component and component life cycle, and conditional rendering. Component architecture is further refined through React design patterns like Higher-Order Components, composite, and render props patterns. Additionally, mastering Flux and Redux for state management, forms, HTTP, routing, hooks, and the Context API are integral to building efficient React applications.",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+            descBullets: [""]
         },
         // {
         //     schoolName: "AProgrammer",
@@ -322,7 +322,7 @@ const workExperiences = {
             role: "Senior Fullstack Developer",
             company: "Dinger Co.,ltd Fintech",
             companylogo: require("./assets/images/dinger_logo.jpeg"),
-            date: "May 2023 to Present",
+            date: "May 2023 to OCT 2024",
             desc: "Led the successful development and delivery of multiple projects, showcasing exceptional technical skills and a deep understanding of fintech and payment gateway solutions.",
             descBullets: [
                 "Mobile eWallet App",
@@ -331,6 +331,22 @@ const workExperiences = {
                 "BCGE Web App(Non-Government)",
                 "Dinger Portfolio Web App",
                 "Dinger Admin Web App",
+            ]
+        },
+        {
+            role: "Senior Fullstack Developer & Team Lead",
+            company: "BrndWrx Co., Ltd",
+            companylogo: require("./assets/images/Brndwrx-02.svg"),
+            date: "March 2024 to Present",
+            desc: "Built immersive AR product experiences with React.js, Three.js, 8th Wall, A-Frame.js, and TensorFlow.js, integrating real-time motion tracking and media overlays.",
+            descBullets: [
+                "Web AR/VR App for Product Experience",
+                "Scalable eCommerce Web App",
+                "Custom Shopify API Integration Web App",
+                "Custom WooCommerce API Integration with React Web App",
+                "Boutique Creative Ads Agency Website",
+                "BrndWrx Portfolio Website",
+                "Immersive AR Solutions Website",
             ]
         }
     ]
