@@ -469,17 +469,7 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },
-        {
-            image: require("./src/assets/images/dinger-asia.png"),
-            projectName: "Dinger Fintech",
-            projectDesc: "A fintech company offering a mobile eWallet app, billing portal web app, and various payment solutions.",
-            footerLink: [{
-                    name: "Visit Website",
-                    url: "https://dinger.asia"
-                }
-                //  you can add extra buttons here.
-            ]
-        },
+
         {
             image: require("./assets/images/BillingPortal.png"),
             projectName: "Billing Portal Web App",
