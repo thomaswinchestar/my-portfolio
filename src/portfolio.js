@@ -10,7 +10,7 @@ const illustration = {
 
 const greeting = {
     username: "Devpph",
-    title: "Hi all, I'm Pyei Phyo Htet(Thomas)",
+    title: "Hi all, I'm Thomas",
     subTitle: emoji(
         "A passionate Senior Full Stack Engineer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / TypeScript / Reactjs / Nodejs / PHP / Laravel and some other cool libraries and frameworks."
     ),
@@ -161,9 +161,9 @@ const educationInfo = {
             logo: require("./assets/images/yude-logo.png"),
             subHeader: "Bachelor of Science in Physics",
             duration: "January 2015 - December 2019",
-            desc: "Physics",
+            desc: "Graduated with a Bachelor of Science in Physics, focusing on theoretical and experimental physics. Developed strong analytical and problem-solving skills through coursework and research projects.",
             descBullets: [
-                ""
+                "Physics"
             ]
         },
         {
@@ -171,16 +171,43 @@ const educationInfo = {
             logo: require("./assets/images/NMDC.png"),
             subHeader: "Diploma in Information Technology and Computer Programming",
             duration: "September 2016 - April 2017",
-            desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-            descBullets: [""]
+            desc: "Completed a Diploma in Information Technology and Computer Programming, gaining foundational knowledge in computer science principles, programming languages, and software development methodologies.",
+            descBullets: [
+                "Information Technology",
+                "Computer Programming",
+                "Software Development",
+                "Web Development",
+                "Database Management",
+                "Networking",
+                "System Analysis and Design",
+                "Project Management",
+                "IT Security",
+                "Cloud Computing",
+                "Mobile App Development",
+                "Agile Methodologies",
+                "Data Structures and Algorithms",
+            ]
         },
         {
             schoolName: "Myanmar Imformation Technology Consulting Co.,ltd",
             logo: require("./assets/images/MITC.jpg"),
             subHeader: "Professional Web Development",
             duration: "2017 - 2018",
-            desc: "learned about HTML5, CSS3, Javascript, Bootstrap, PHP, Wordpress, Laravel, CodeIgniter, Drupal",
-            descBullets: [""]
+            desc: "Completed a comprehensive course in Professional Web Development, covering essential technologies and frameworks for building modern web applications. Gained hands-on experience in front-end and back-end development, database management, and deployment.",
+            descBullets: [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "jQuery",
+                "PHP",
+                "Laravel",
+                "MySQL",
+                "RESTful APIs",
+                "Web Security",
+                "Responsive Design",
+                "Version Control",
+            ]
         },
         {
             schoolName: "Fairway Technology",
@@ -188,15 +215,57 @@ const educationInfo = {
             subHeader: "Rockstar Developer Class",
             duration: "August 2020 - Jan 2021",
             desc: "Project Management, Service-oriented Architecture, SOLID Design Principle, Git SCM, Build Automation, NodeJS, MongoDB, ExpressJS, Server Architecture",
-            descBullets: [""]
+            descBullets: [
+                "JavaScript",
+                "Node.js",
+                "NPM",
+                "Vite",
+                "TypeScript",
+                "React.js",
+                "React-Router",
+                "React-Query",
+                "React Hook Form",
+                "Redux Toolkit",
+                "Redux Saga",
+                "Next.js",
+                "Tailwind CSS",
+                "Express.js",
+                "Prisma ORM",
+                "MongoDB",
+                "RESTful APIs",
+                "Git and Version Control",
+                "Agile Methodologies",
+                "Service-Oriented Architecture (SOA)",
+                "SOLID Design Principles",
+                "Build Automation"
+            ]
         },
         {
             schoolName: "Turing Programming Training Center",
             logo: require("./assets/images/turing-logo.png"),
             subHeader: "JavaScript +Frontend development with React",
             duration: "August 2020 - Feb 2021",
-            desc: "Understanding how JavaScript works, from source code to machine code in a browser, involves mastering data types and control flow structures. Key concepts include functions, event handling, the DOM, and the JavaScript event loop model. Object-oriented programming with JavaScript, along with functional programming techniques—ranging from higher-order functions to functors, monoids, monads, and functional design patterns—are essential. Core programming principles, basic Node.js, and building applications using CRUD operations with JWT, Express.js, and MongoDB are fundamental for backend development. Asynchronous programming through callbacks, promises, and async/await, paired with writing clean code and basic refactoring, enhances code quality. On the frontend, React with Next.js necessitates an understanding of package managers and project setup, offering an overview of how React operates under the hood. This includes handling React elements, JSX in depth, the virtual DOM, component and component life cycle, and conditional rendering. Component architecture is further refined through React design patterns like Higher-Order Components, composite, and render props patterns. Additionally, mastering Flux and Redux for state management, forms, HTTP, routing, hooks, and the Context API are integral to building efficient React applications.",
-            descBullets: [""]
+            desc: "A comprehensive course covering JavaScript fundamentals, frontend development with React, and advanced programming concepts.",
+            descBullets: [
+                "Understanding how JavaScript works from source code to machine code in a browser",
+                "Mastering data types and control flow structures",
+                "Functions, event handling, and the DOM",
+                "JavaScript event loop model",
+                "Object-oriented programming with JavaScript",
+                "Functional programming techniques (higher-order functions, functors, monoids, monads, functional design patterns)",
+                "Core programming principles",
+                "Basic Node.js and building applications using CRUD operations with JWT, Express.js, and MongoDB",
+                "Asynchronous programming (callbacks, promises, async/await)",
+                "Writing clean code and basic refactoring",
+                "Frontend development with React and Next.js",
+                "Package managers and project setup",
+                "Overview of how React works under the hood",
+                "Handling React elements and JSX in depth",
+                "Virtual DOM, component and component life cycle, and conditional rendering",
+                "Component architecture with React design patterns (Higher-Order Components, composite, and render props patterns)",
+                "Mastering Flux and Redux for state management",
+                "Forms, HTTP, routing, hooks, and the Context API in React"
+            ]
         },
         // {
         //     schoolName: "AProgrammer",
