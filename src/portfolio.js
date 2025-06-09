@@ -469,7 +469,17 @@ const bigProjects = {
                 //  you can add extra buttons here.
             ]
         },
-
+        {
+            image: require("./assets/images/dinger-asia.png"),
+            projectName: "Dinger Fintech",
+            projectDesc: "A fintech company offering a mobile eWallet app, billing portal web app, and various payment solutions.",
+            footerLink: [{
+                    name: "Visit Website",
+                    url: "https://dinger.asia"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
         {
             image: require("./assets/images/BillingPortal.png"),
             projectName: "Billing Portal Web App",
@@ -510,15 +520,6 @@ const bigProjects = {
             footerLink: [{
                 name: "Visit Website",
                 url: "https://drive.google.com/drive/folders/1AtBJjj4mPNxTjsi-XybUyyPD3REEQRra?usp=sharing"
-            }]
-        },
-        {
-            image: require("./assets/images/dinger-portfolio.png"),
-            projectName: "Dinger Portfolio Web App",
-            projectDesc: "A portfolio web application showcasing Dinger's fintech solutions and services, highlighting their innovative approach to digital finance.",
-            footerLink: [{
-                name: "Visit Website",
-                url: "https://dinger.asia/portfolio"
             }]
         },
         {
