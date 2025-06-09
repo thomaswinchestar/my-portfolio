@@ -434,30 +434,114 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-    title: "Big Projects",
-    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    title: "Projects",
+    subtitle: "Some of my most notable projects",
     projects: [{
-            image: require("./assets/images/welldone_logo.png"),
-            projectName: "Welldone",
-            projectDesc: "Find the perfect freelance services for your business",
+            image: require("./assets/images/web-ar.jpg"),
+            projectName: "Plantd Web AR",
+            projectDesc: "An immersive AR product experience that allows users to visualize products in their environment using Web AR technologies.",
             footerLink: [{
                     name: "Visit Website",
-                    url: "https://www.welldone.im"
+                    url: "https://drive.google.com/drive/folders/1JxDDmyF6yS07zRAkOzNA5G89bpol3OKC?usp=sharing"
                 }
                 //  you can add extra buttons here.
             ]
         },
         {
-            image: require("./assets/images/tzt-logo.png"),
-            projectName: "Trazitar",
-            projectDesc: "The Best Shoes Online Shop in Yangon",
+            image: require("./assets/images/plantd.png"),
+            projectName: "Plantd eCommerce Web App",
+            projectDesc: "A scalable eCommerce web application built with React.js, integrating custom Shopify API for seamless product management and user experience.",
+            footerLink: [{
+                    name: "Visit Website",
+                    url: "https://plantdskincare.com/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
+        {
+            image: require("./assets/images/mtb-pay-2.jpg"),
+            projectName: "MTB Pay",
+            projectDesc: "A comprehensive payment gateway solution that integrates with various eCommerce platforms, providing secure and efficient payment processing.",
+            footerLink: [{
+                    name: "Visit Website",
+                    url: "https://mtb.com.mm/digital_banking/mtb-pay/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
+        {
+            image: require("./assets/images/dinger-asia.png"),
+            projectName: "Dinger Fintech",
+            projectDesc: "A fintech company offering a mobile eWallet app, billing portal web app, and various payment solutions.",
+            footerLink: [{
+                    name: "Visit Website",
+                    url: "https://dinger.asia"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
+        {
+            image: require("./assets/images/BillingPortal.png"),
+            projectName: "Billing Portal Web App",
+            projectDesc: "A web application for managing billing and invoicing, providing a user-friendly interface for customers to view and pay their bills.",
+            footerLink: [{
+                    name: "Visit Website",
+                    url: "https://drive.google.com/drive/folders/1QKDMjRacHxTOsRBdY62yvzJ2ui3fvdxH?usp=sharing"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
+        {
+            image: require("./assets/images/picpicker-saas.png"),
+            projectName: "Picpicker App",
+            projectDesc: "A mobile application that allows users to select and manage images for various purposes, integrating with the Dinger ecosystem.",
+            footerLink: [{
+                    name: "Visit Website",
+                    url: "https://drive.google.com/drive/folders/1lDJtZ3gA-IktnTmPDEiZkos8LbNTTgyZ?usp=sharing"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
+        {
+            image: require("./assets/images/Invoice-SaaS.png"),
+            projectName: "Invoice System App",
+            projectDesc: "A SaaS application for managing invoices, providing features for creating, sending, and tracking invoices online.",
+            footerLink: [{
+                    name: "Visit Website",
+                    url: "https://drive.google.com/drive/folders/1pg7HDY_9ifHs43j2ZbUYVyXyDJHesQKr?usp=sharing",
+                }
+                //  you can add extra buttons here.
+            ]
+        },
+        {
+            image: require("./assets/images/HR-SaaS.jpg"),
+            projectName: "HR Management Web App",
+            projectDesc: "A fully customized HR management web application that streamlines employee management, payroll processing, and performance tracking.",
+            footerLink: [{
+                name: "Visit Website",
+                url: "https://drive.google.com/drive/folders/1AtBJjj4mPNxTjsi-XybUyyPD3REEQRra?usp=sharing"
+            }]
+        },
+        {
+            image: require("./assets/images/dinger-portfolio.png"),
+            projectName: "Dinger Portfolio Web App",
+            projectDesc: "A portfolio web application showcasing Dinger's fintech solutions and services, highlighting their innovative approach to digital finance.",
+            footerLink: [{
+                name: "Visit Website",
+                url: "https://dinger.asia/portfolio"
+            }]
+        },
+        {
+            image: require("./assets/images/trazitar-eCommerce.png"),
+            projectName: "Trazitar eCommerce",
+            projectDesc: "A fully customized eCommerce web application built with React and Laravel, providing a seamless shopping experience for users.",
             footerLink: [{
                 name: "Visit Website",
                 url: "https://www.trazitar.com"
             }]
         }
     ],
-    display: false // Set false to hide this section, defaults to true
+    display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
